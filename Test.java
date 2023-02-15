@@ -6,7 +6,8 @@ public class Test{
         System.out.println("My name is prabal kuinkel");
         System.out.println("Enter two numbers: ");
         int a=input.nextInt();
-        System.out.println(a);
+        int b=input.nextInt();
+        System.out.println("The sum of two numbers is: ",a+b);
         input.close();
         
 
