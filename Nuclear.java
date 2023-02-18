@@ -16,6 +16,7 @@ public class Nuclear{
         char motor_update = object.next().charAt(0);
         System.out.println("What is the core average temperature [Celcius] of the Nuclear reactor: ");
         float temp = object.nextFloat();
+        float num_2=temp+273.15f;
         System.out.println("\n\t\t\tDETAILS ARE:\n\tThe total number of employee is  "+num+" .");
         System.out.println("\n\tThe name of supervisor is "+name+" .");
         System.out.println("\n\tThe nuclear waste is removed "+waste_no+" times from the core.");
@@ -31,7 +32,7 @@ public class Nuclear{
         else{
             System.out.println("\n\tINVALID INPUT");
         }
-        System.out.println("\n\tThe average core temperature of the Nuclear reactor [Celcius] is "+temp+ " C and [Kelvin] is "+temp+273.15+" K");
+        System.out.println("\n\tThe average core temperature of the Nuclear reactor [Celcius] is "+temp+ " C and [Kelvin] is "+num_2+" K");
 
     }
 }
