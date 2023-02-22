@@ -7,7 +7,7 @@ public class Test{
         System.out.println("Enter two numbers: ");
         int a=input.nextInt();
         int b=input.nextInt();
-        System.out.println("The sum of two numbers is: ",a+b);
+        System.out.println("The sum of two numbers is: "+a+b);
         input.close();
         
 
