@@ -15,11 +15,14 @@ public class Calculation {
             char ch1[] = arr.toCharArray();
             char ch2[] = arr2.toCharArray();
             if (length1 == length2) {
-                for (int i = 0; i < length1; i++) {
-                    for (int j = 0; j < length2; j++) {
-                        if (ch1[i] == ch2[j]) {
+                for (int i = 0; i < length1; i++)
+                {
+                    for (int j = 0; j < length2; j++)
+                    {
+                        if (ch1[i] == ch2[j])
+                        {
                             count++;
-                            break;
+                            //break;
                         }
                     }
                 }
