@@ -5,7 +5,8 @@ public class Main
     public static void main(String[] args)
     {
         int i, j, ch,choi=0;
-        do {
+        do
+        {
             display();
             Scanner obj = new Scanner(System.in);
             System.out.println("Enter your choice: ");
