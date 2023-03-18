@@ -20,7 +20,7 @@ public class Calculation {
             //String st2 = new String(ch2);
             //System.out.println(ch1+" "+ch2);
 
-                if (length1 == length2) {
+        if (length1 == length2) {
                     for (int i = 0; i < length1; i++)
                          {
                             if (ch1[i] == ch2[i]) {
